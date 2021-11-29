@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {    
+    font: 400 16px/1.5 Lato, Arial, Tahoma sans-serif;
+    color: #848789;
+}
+
+a {
+    text-decoration: none;
+    color: #f00;
+}
+
+ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #000;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+input {
+    outline: none;
+}
+
+.wrapper{
+    overflow: hidden;
+}
+
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.header .banner img{
+    width: 100%;
+} 
+
+.banner {
+    background: url("../images/banner.png") no-repeat 50% 0;
+    background-size: cover;
+
+}
+.header .banner {
+    min-height: 100vh;
+
+}
+.info{
+    max-width: 1080px;
+    padding: 0 0 140px;
+    
+
+}
+.info img{
+    padding: 120px 520px 43px;
+    margin: 0 auto;
+}
+
+
+p{
+    display: inline-block;
+    text-align: center;
+    padding: 35px;
+    line-height: 2;
+    text-align: center;
+    letter-spacing: 0;
+    text-indent: 1.5em;
+    
+}
+h3{
+    text-align: center;
+    letter-spacing: 1px;
+}
