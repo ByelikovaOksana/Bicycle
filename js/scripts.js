@@ -1,12 +1,11 @@
 $(document).ready(function () {
-    $('.mobile-menu').on('click', function () {
-        $('.navigation .menu').slideToggle();
+    
+    $('.menu-button').on('click', function() {
+        $('.navigation-wrapper').addClass('active');
     })
-});
+    $('.close-menu').on('click', function() {
+        $('.navigation-wrapper').removeClass('active');
+    })
 
-$(window).resize(function () {
-    const windowWidth = $(window).outerWidth();
-    if(windowWidth > 768){
-        $('.navigation .menu').attr('style');
-    }
-})
+
+
